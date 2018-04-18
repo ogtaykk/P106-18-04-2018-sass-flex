@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.section-padding {
+  padding: 50px 0px;
+}
+
+.inner-padding {
+  padding: 15px 0px;
+}
+
+.row {
+  position: relative;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+div[class^="col-"] {
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+
+.col-1 {
+  width: calc((100%/12)*1 - (2*10px));
+}
+
+.col-2 {
+  width: calc((100%/12)*2 - (2*10px));
+}
+
+.col-3 {
+  width: calc((100%/12)*3 - (2*10px));
+}
+
+.col-4 {
+  width: calc((100%/12)*4 - (2*10px));
+}
+
+.col-5 {
+  width: calc((100%/12)*5 - (2*10px));
+}
+
+.col-6 {
+  width: calc((100%/12)*6 - (2*10px));
+}
+
+.col-7 {
+  width: calc((100%/12)*7 - (2*10px));
+}
+
+.col-8 {
+  width: calc((100%/12)*8 - (2*10px));
+}
+
+.col-9 {
+  width: calc((100%/12)*9 - (2*10px));
+}
+
+.col-10 {
+  width: calc((100%/12)*10 - (2*10px));
+}
+
+.col-11 {
+  width: calc((100%/12)*11 - (2*10px));
+}
+
+.col-12 {
+  width: calc((100%/12)*12 - (2*10px));
+}
+
+#sliderSec {
+  padding: 80px 0;
+  height: 470px;
+  width: 100%;
+  background-image: url("../image/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#sliderSec .headerOne {
+  margin-left: 390px;
+  margin-top: 0;
+  text-align: center;
+}
+#sliderSec .headerOne h1 {
+  color: #fff;
+}
+#sliderSec .headerOne h1::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 37px;
+  height: 1px;
+  margin: -20px auto;
+  content: '';
+  opacity: 1;
+  background: #fff;
+}
+#sliderSec .centerText {
+  margin-left: 330px;
+  margin-top: 50px;
+  text-align: center;
+}
+#sliderSec .centerText p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+#sliderSec .centerText p:nth-child(1) {
+  color: #fff;
+}
+#sliderSec .centerText p:nth-child(3) {
+  color: #c92424;
+  font-style: normal;
+  font-size: 16px;
+}
+#sliderSec .centerText p:nth-child(4) {
+  font-size: 13px;
+  font-style: normal;
+  color: #fff;
+}
+#sliderSec .centerText img {
+  height: 100px;
+}

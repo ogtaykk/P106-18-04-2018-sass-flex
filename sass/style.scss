@@ -1,0 +1,25 @@
+$colorWhite:#fff;
+$colorRed: #c92424;
+$mainWidth:1400px;
+$mainMargin:10px;
+$mainFont: 'Dosis', sans-serif;
+$mainFontSize:14px;
+$sliderHeight:630px;
+
+
+body{
+
+	margin:0;
+	padding:0;
+	font-family: $mainFont;
+}
+
+
+.img-circle{
+	
+	border-radius:50%;
+}
+
+
+@import "lib/grid";
+@import "lib/sliderBar";
